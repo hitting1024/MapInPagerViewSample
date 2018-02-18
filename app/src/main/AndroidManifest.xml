@@ -21,7 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MapFragmentPagerActivity" />
-        <activity android:name=".ListViewPagerActivity"></activity>
+        <activity android:name=".ListViewPagerActivity" />
+        <activity android:name=".FragmentPagerActivity"></activity>
     </application>
 
 </manifest>

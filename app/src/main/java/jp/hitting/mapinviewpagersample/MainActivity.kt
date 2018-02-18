@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
         this.listViewButton.setOnClickListener {
             this.startActivity(Intent(this, ListViewPagerActivity::class.java))
         }
+        this.fragmentButton.setOnClickListener {
+            this.startActivity(Intent(this, FragmentPagerActivity::class.java))
+        }
     }
 
 }
